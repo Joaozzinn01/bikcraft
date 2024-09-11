@@ -1,0 +1,99 @@
+/* ESTILO INTRODUCAO */
+.introducao_bg {
+    background-color: var(--cor-12);
+    box-shadow: inset 0 -120px var(--cor-0);
+}
+
+.introducao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 40px;
+    max-width: 1200px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+.introducao p {
+    margin-bottom: 20px;
+}
+
+.introducao a {
+    display: inline-block;
+    padding: 16px 32px;
+    background: linear-gradient(#ffbf00, #f2a50c);
+    border-radius: 4px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    color: #332200;
+    font-size: 18px;
+    line-height: 1.33;
+    font-size: "Poppins";
+    font-weight: 600;
+}
+
+.introducao a:hover {
+    background: linear-gradient(#ffb60d, #e59317);
+}
+
+.introducao img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.introducao_conteudo {
+    align-self: end;
+    padding-bottom: 200px;
+}
+
+.introducao h1 {
+    margin-bottom: 32px;
+}
+
+/* ESTILO RESPONSIVO - INTRODUCAO */
+
+@media (max-width: 800px) {
+    .introducao_bg {
+        background: var(--cor-11);
+        padding-top: 40px;
+        box-shadow: inset 0 -60px var(--cor-0);
+    }
+
+    .introducao {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .introducao_conteudo {
+        padding-bottom: 0;
+    }
+
+    .introducao h1 {
+        margin-bottom: 16px;
+    }
+
+    .introducao img {
+        height: 300px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .introducao a {
+        padding: 10px 12px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 800px) {
+    .font_1_xxl {
+        font-size: 2rem;
+    }
+
+    .font_1_xl,
+    .font_2_xl {
+        font-size: 1.5rem;
+    }
+}
