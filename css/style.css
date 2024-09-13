@@ -15,3 +15,6 @@
 
 /* Home */
 @import url(./home/introducao.css);
+
+/* Bicicletas listas */
+@import url(./bicicletas/bicicletas-listas.css);

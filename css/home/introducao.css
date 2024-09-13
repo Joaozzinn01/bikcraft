@@ -8,11 +8,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0 40px;
-    max-width: 1200px;
-    box-sizing: border-box;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 0 auto;
 }
 
 .introducao p {
