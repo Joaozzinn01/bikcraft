@@ -11,7 +11,8 @@ h2,
 h3,
 h4,
 ul,
-p {
+p, 
+blockquote {
     margin: 0;
 }
 
@@ -30,6 +31,7 @@ img {
     display: block;
 }
 
-img[src$=".jpg"] { /*apenas imagens com jpg no final do arquivo*/
+img[src$=".jpg"] {
+    /*apenas imagens com jpg no final do arquivo*/
     border-radius: 4px;
 }

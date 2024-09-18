@@ -16,8 +16,10 @@
 /* Home */
 @import url(./home/introducao.css);
 
-/* Bicicletas listas */
 @import url(./bicicletas/bicicletas-listas.css);
 
-/* Tecnologia */
 @import url(/css/home/tecnologia.css);
+
+@import url(home/parceiros.css);
+
+@import url(home/depoimentos.css);
