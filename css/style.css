@@ -15,11 +15,15 @@
 
 /* Home */
 @import url(./home/introducao.css);
+@import url(/css/home/tecnologia.css);
+@import url(home/parceiros.css);
+@import url(home/depoimentos.css);
 
+/* bicicletas */
 @import url(./bicicletas/bicicletas-listas.css);
 
-@import url(/css/home/tecnologia.css);
+/* seguros */
+@import url(./seguros/seguros.css);
 
-@import url(home/parceiros.css);
-
-@import url(home/depoimentos.css);
+/* Footer */
+@import url(./global/footer.css);
